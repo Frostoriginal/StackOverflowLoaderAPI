@@ -1,0 +1,313 @@
+{
+  "items": [
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2528853,
+      "name": "javascript"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 2192236,
+      "name": "python"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1917339,
+      "name": "java"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1614986,
+      "name": "c#"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "php"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective where developers working with PHP can learn and connect about the open source scripting language.",
+          "link": "/collectives/php",
+          "name": "PHP",
+          "slug": "php"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1464448,
+      "name": "php"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "ios",
+            "android"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers who want to share their knowledge and learn more about mobile development practices and platforms",
+          "link": "/collectives/mobile-dev",
+          "name": "Mobile Development",
+          "slug": "mobile-dev"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1417231,
+      "name": "android"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1187379,
+      "name": "html"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 1034845,
+      "name": "jquery"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 806736,
+      "name": "c++"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 804230,
+      "name": "css"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "ios",
+            "android"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective for developers who want to share their knowledge and learn more about mobile development practices and platforms",
+          "link": "/collectives/mobile-dev",
+          "name": "Mobile Development",
+          "slug": "mobile-dev"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 687249,
+      "name": "ios"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 670737,
+      "name": "sql"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 662032,
+      "name": "mysql"
+    },
+    {
+      "collectives": [
+        {
+          "tags": [
+            "r-raster",
+            "shinydashboard",
+            "stringr",
+            "r",
+            "lubridate",
+            "rvest",
+            "tibble",
+            "plyr",
+            "rlang",
+            "forcats",
+            "dtplyr",
+            "zoo",
+            "r-caret",
+            "quantmod",
+            "purrr",
+            "shiny",
+            "shiny-server",
+            "knitr",
+            "rstudio",
+            "tidyr",
+            "r-package",
+            "ggplot2",
+            "data.table",
+            "tidyverse",
+            "readr",
+            "shinyapps",
+            "dplyr"
+          ],
+          "external_links": [
+            {
+              "type": "support",
+              "link": "https://stackoverflow.com/contact?topic=15"
+            }
+          ],
+          "description": "A collective where data scientists and AI researchers gather to find, share, and learn about R and other subtags like knitr and dplyr.",
+          "link": "/collectives/r-language",
+          "name": "R Language",
+          "slug": "r-language"
+        }
+      ],
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 505544,
+      "name": "r"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 476693,
+      "name": "reactjs"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 472034,
+      "name": "node.js"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 416689,
+      "name": "arrays"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 403907,
+      "name": "c"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 374631,
+      "name": "asp.net"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 360343,
+      "name": "json"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 343657,
+      "name": "python-3.x"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 338052,
+      "name": "ruby-on-rails"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 337879,
+      "name": ".net"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 334510,
+      "name": "sql-server"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 333369,
+      "name": "swift"
+    },
+    {
+      "has_synonyms": false,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 311815,
+      "name": "django"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 304065,
+      "name": "angular"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 292331,
+      "name": "objective-c"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 286641,
+      "name": "pandas"
+    },
+    {
+      "has_synonyms": true,
+      "is_moderator_only": false,
+      "is_required": false,
+      "count": 286499,
+      "name": "excel"
+    }
+  ],
+  "has_more": true,
+  "quota_max": 10000,
+  "quota_remaining": 9995
+}

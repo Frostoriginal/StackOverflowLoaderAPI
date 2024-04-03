@@ -1,0 +1,76 @@
+version: '3.4'
+
+services:
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:latest
+    environment:
+      - SA_PASSWORD=Pass@word
+      - ACCEPT_EULA=Y
+    ports:
+      - "1433:1433"  
+
+  stackoverflowloaderapi:
+    image: stackoverflowloaderapi
+    environment:
+     - ASPNETCORE_ENVIRONMENT=Development
+     - connstring=Data Source = host.docker.internal,1433; User iD = sa; Password=Pass@word; Initial Catalog = SOTags; TrustServerCertificate=True;
+     - tagstoload=1000
+     - tagstoloadpagesize=100
+     - timemsbeforenextcall=5000
+     - resetdbonstartup=true
+     #- ASPNETCORE_URLS=http://*:7142
+    build:
+      context: stackoverflowloaderapi
+      dockerfile: Dockerfile
+    ports: 
+      - "7142:7142" 
+    depends_on:       
+    - sqldata
+  
+  unittests:
+    container_name: unit-tests
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    volumes:
+      - .:/StackOverflowLoaderAPI
+      - ../UnitTests:/UnitTests
+    working_dir: /StackOverflowLoaderAPI
+    command:
+      [
+        "./Scripts/wait-for-it.sh",        
+        "7142:7142",
+        "-t",
+        "60",
+        "--",
+        "dotnet",
+        "test",
+        "../UnitTests/UnitTests.csproj",
+        "--logger",
+        "console;verbosity=detailed"
+      ]
+ 
+  integration-tests:
+    container_name: integration-tests
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    environment:     
+     - connstring=Data Source = host.docker.internal,1433; User iD = sa; Password=Pass@word; Initial Catalog = SOTags; TrustServerCertificate=True;     
+    volumes:
+      - .:/StackOverflowLoaderAPI
+      - ../IntegrationTests:/IntegrationTests
+    working_dir: /StackOverflowLoaderAPI
+    command:
+      [
+       "./Scripts/wait-for-it.sh",        
+        "7142:7142",
+        "-t",
+        "80",
+        "--",
+        "dotnet",
+        "test",
+        "../IntegrationTests/IntegrationTests.csproj",
+        "--logger",
+        "console;verbosity=detailed"
+      ]
+    depends_on:
+    - sqldata
+
+  
